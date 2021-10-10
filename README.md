@@ -10,6 +10,9 @@ Thank for using my script ^^
    
    Don't forget to install pyautogui package! and click that red subscribe button :D
 
-//the script in the main.py!   
+//the script in the main.py!  
+
+The Owo's autohunt cost money. Mine not so why don't u press that Red button ??? :D
    
 ==> subscribe now! ("https://www.youtube.com/channel/UC3aCZXOSgKEZY7JNs79OgvA") or no script for u
+
