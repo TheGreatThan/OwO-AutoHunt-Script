@@ -12,3 +12,4 @@ Thank for using my script ^^
 
 //the script in the main.py!   
    
+==> subscribe now! ("https://www.youtube.com/channel/UC3aCZXOSgKEZY7JNs79OgvA") or no script for u
