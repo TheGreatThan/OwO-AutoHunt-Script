@@ -3,7 +3,7 @@
 //dont paste the ('//')
 //u can change the time in the n, s, x, a,num and d its just generate a random numbers in randrange 0 to what ever u want i mean if u input it 50 it will
 //generate a number around 0 to 50!
-//thank for using my script! hope u like it!
+//thank for using my code! hope u like it!
 //Well I've Updated the code because there's one problem that my friends found haha
 //I'm hoping you can assist me by providing feedback.
 //FeedBack: Discord "DefNotUnclThan#9503" Just Dm Me I'll Check it ASAP!
