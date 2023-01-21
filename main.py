@@ -1,7 +1,7 @@
 //you can change what ever you want in the [auto.write('your commands here')]
 //do not change the auto.write('owoh') or it won't work!
 //dont paste the ('//')
-//u can change the time in the n, s, x and d its just generate a random numbers in randrange 0 to what ever u want i mean if u input it 50 it will
+//u can change the time in the n, s, x, a,num and d its just generate a random numbers in randrange 0 to what ever u want i mean if u input it 50 it will
 //generate a number around 0 to 50!
 //thank for using my script! hope u like it!
 //Well I've Updated the code because there's one problem that my friends found haha
