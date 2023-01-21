@@ -4,69 +4,101 @@
 //u can change the time in the n, s, x and d its just generate a random numbers in randrange 0 to what ever u want i mean if u input it 50 it will
 //generate a number around 0 to 50!
 //thank for using my script! hope u like it!
+//Well I've Updated the code because there's one problem that my friends found haha
+//I'm hoping you can assist me by providing feedback.
+//FeedBack: Discord "DefNotUnclThan#9503" Just Dm Me I'll Check it ASAP!
 
 import pyautogui as auto
 import time
 import random
 import datetime
 
-count = 1
+count = 0
 
 time.sleep(9)
 while True:
-    n = random.randrange(12)
-    s = random.randrange(60)
+    if count == 80:
+        time.sleep(600)
+        count == 0
+        auto.write('Paused for 10 mins')
+
+    n = random.randrange(8)
+    s = random.randrange(30)
     x = random.randrange(2)
     d = random.randrange(10)
-    auto.write('owoh')
+    a = random.randrange(3)
+    num = random.randrange(1000)
+
+    converted_num = "% s" % num
+
+    if a == 0:
+        auto.write('owo h')
+    elif a == 1:
+        auto.write('owoh')
+    elif a == 2:
+        auto.write('owo hunt')
     auto.press('enter')
+
     time.sleep(20)
+
     if n == 1:
         if x == 1:
-            auto.write('owo cf 10 heads')
+            auto.write('owo ')
+            time.sleep(0.5)
+            auto.write('cf ')
+            time.sleep(0.5)
+            auto.write('10 ')
+            time.sleep(0.5)
+            auto.write('heads')
             auto.press('enter')
         elif x == 0:
-            auto.write('owo cf 10 tails')
+            auto.write('owo ')
+            time.sleep(0.5)
+            auto.write('cf ')
+            time.sleep(0.5)
+            auto.write('10 ')
+            time.sleep(0.5)
+            auto.write('tails')
             auto.press('enter')
     elif n == 2:
-        auto.write('owo s ' + '5')
+        auto.write('owo s ')
+        auto.write(converted_num)
+        time.sleep(0.25)
         auto.press('enter')
     elif n == 3:
-        auto.write('owo s ' + '15')
+        auto.write('owo s ')
+        auto.write(converted_num)
+        time.sleep(0.35)
         auto.press('enter')
     elif n == 4:
         if x == 1:
-            auto.write('owo cf 100 heads')
+            auto.write('owo ')
+            time.sleep(0.5)
+            auto.write('cf ')
+            time.sleep(0.5)
+            auto.write(converted_num)
+            time.sleep(0.5)
+            auto.write(' heads')
             auto.press('enter')
         elif x == 0:
-            auto.write('owo cf 100 tails')
+            auto.write('owo ')
+            auto.sleep(0.15)
+            auto.write('cf ')
+            auto.sleep(0.25)
+            auto.write(converted_num)
+            auto.write(' tails')
+            time.sleep(0.3)
             auto.press('enter')
     elif n == 5:
-        auto.write('owo s ' + '30')
+        auto.write('owo s ')
+        time.sleep(0.25)
+        auto.write(converted_num)
         auto.press('enter')
     elif n == 6:
-        auto.write('owo s ' + '12')
+        auto.write('owo s ')
+        time.sleep(0.25)
+        auto.write(converted_num)
         auto.press('enter')
-    elif n == 7:
-        if x == 1:
-            auto.write('owo cf 8 heads')
-            auto.press('enter')
-        elif x == 0:
-            auto.write('owo cf 8 tails')
-            auto.press('enter')
-    elif n == 8:
-        auto.write('owo s ' + '2')
-        auto.press('enter')
-    elif n == 9:
-        auto.write('owo s ' + '1')
-        auto.press('enter')
-    elif n == 10:
-        if x == 1:
-            auto.write('owo cf 50 heads')
-            auto.press('enter')
-        elif x == 0:
-            auto.write('owo cf 50 tails')
-            auto.press('enter')
     elif n == 0:
         if x == 1:
             auto.write('owo sell c')
@@ -104,12 +136,28 @@ while True:
             auto.press('enter')
             time.sleep(d)
 
-    elif n == 11:
-        auto.write('owob')
-        auto.press('enter')
-    print(count)
+    elif n == 7:
+        if a == 0:
+            auto.write('owob')
+        elif a == 1:
+            auto.write('owo b')
+        elif a == 2:
+            auto.write('owo battle')
+    auto.press('enter')
     count = count + 1
+    tong = 80
+    hieu = tong - count
+    converted_hieu = "% s" % hieu
+    converted_count = "% s" % count
+    print(count)
     datetime.datetime.now()
     datetime.datetime(2009, 1, 6, 15, 8, 24, 78915)
     print(datetime.datetime.now())
+    print(s)
+    auto.write('This is the ')
+    auto.write(converted_count)
+    auto.write(' times and will be halted for 10 minutes ')
+    auto.write(converted_hieu)
+    auto.write(' Times more')
+    auto.press('enter')
     time.sleep(s)
