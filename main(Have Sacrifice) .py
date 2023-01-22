@@ -14,13 +14,28 @@ import random
 import datetime
 
 count = 0
+reset = 1
 
 time.sleep(9)
 while True:
     if count == 80:
-        time.sleep(600)
-        count == 0
-        auto.write('Paused for 10 mins')
+        if reset == 1:
+            count = 0
+            auto.write('Paused for 10 mins')
+            auto.write(' The Second pause gonna take 30 minutes')
+            reset = reset + 1
+            auto.press('enter')
+            auto.write('Count Reseted To 1.')
+            auto.press('enter')
+            time.sleep(600)
+        elif reset == 2:
+            auto.write('Paused for 30 mins')
+            auto.press('enter')
+            auto.write('Count Reseted To 1.')
+            count = 0
+            reset = 1
+            auto.press('enter')
+            time.sleep(1800)
 
     n = random.randrange(8)
     s = random.randrange(30)
@@ -156,8 +171,8 @@ while True:
     print(s)
     auto.write('This is the ')
     auto.write(converted_count)
-    auto.write(' times and will be halted for 10 minutes ')
+    auto.write(' times and will be halted after ')
     auto.write(converted_hieu)
-    auto.write(' Times more')
+    auto.write(' more times')
     auto.press('enter')
     time.sleep(s)
