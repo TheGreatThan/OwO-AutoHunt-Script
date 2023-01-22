@@ -16,7 +16,6 @@ Thank for using my script ^^
 
 The Owo's autohunt cost money. Mine not so why don't u press that Red button ??? :D
    
-==> subscribe now! ("https://www.youtube.com/channel/UC3aCZXOSgKEZY7JNs79OgvA") or no script for u
+==> subscribe now! ("https://www.youtube.com/channel/UCYvFTiYzwM_52U1cCQc-uNQ") or no script for u
 
 Oh one more thing! They may fix it anytime soon so yea enjoy ^^ :D
-
