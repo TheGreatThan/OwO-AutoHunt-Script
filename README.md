@@ -13,7 +13,8 @@ Thank for using my script ^^
    Don't forget to install pyautogui package! and click that red subscribe button :D
 
 //the script in the "OwOAutoHunt(onlysell).py" and the "OwOAutoHunt(Have Sacrifice).py"
-//There's a tutorial on my Channel, My New One haha I just got hack... any way i'll upload the video ASAP Stay till for the link haha
+//There's a tutorial on my Channel, My New One haha I just got hack...
+Tutorial Link : https://www.youtube.com/watch?v=43wetMw1CcA&t=22s&ab_channel=ItsGamerVN
 
 The Owo's autohunt cost money. Mine not so why don't u press that Red button ??? :D
    
